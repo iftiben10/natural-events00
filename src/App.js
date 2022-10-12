@@ -5,6 +5,7 @@ import Eventlist from './Components/Eventlist';
 import Map from './Components/Map';
 import axios from 'axios';
 
+var port = process.env.PORT || 1337
 class App extends React.Component {
   state = {
     natEvents: [],
@@ -38,5 +39,7 @@ class App extends React.Component {
   };
 };
 
+
+.listen(port)
 
 export default App;
