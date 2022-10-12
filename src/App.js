@@ -38,6 +38,5 @@ class App extends React.Component {
   };
 };
 
-.listen(process.env.PORT || 5000)
 
 export default App;
