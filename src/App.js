@@ -38,7 +38,4 @@ class App extends React.Component {
   };
 };
 
-
-configure({ apiServer: "http://localhost:" + process.env.PORT || process.env.REACT_APP_PORT || 8080, userSession};
-
 export default App;
