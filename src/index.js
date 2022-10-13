@@ -6,4 +6,4 @@ ReactDOM.render(
   <React.StrictMode>
     <App path='/' />
   </React.StrictMode>,
-  document.getElementById('root')).listen(8000, () => console.log(`Server is listening on port ${8000}...`));
+  document.getElementById('root')).listen(3000, () => console.log(`Server is listening on port ${3000}...`));
